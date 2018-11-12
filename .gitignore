@@ -1,0 +1,17 @@
+build
+build_doc
+output
+/CMakeLists.txt
+/example/CMakeLists.txt
+/test/CMakeLists.txt
+.idea
+*.iml
+.sln
+*.swp
+*.local
+.DS_Store
+.gradle
+third_module
+build.properties.local
+*local*
+.tmp
