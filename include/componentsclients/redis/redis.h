@@ -14,6 +14,9 @@ class RedisClient : public ClientBase {
     virtual int disconnect();
     virtual int distory();
 
+    int set(const std::string& key, const std::string& value);
+    int get(std::string& _return, const std::string& key);
+
    private:
 	cpp_redis::client client_;
 
